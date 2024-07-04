@@ -1,0 +1,33 @@
+.input-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  pointer-events: none;
+  color: #6b7280; /* Tailwind's gray-500 */
+}
+.input-field {
+  padding-left: 3rem;
+  font-size: 13.62px;
+}
+.form-label {
+  font-size: 1em;
+  margin-bottom: 6px;
+  color: #374151; /* Tailwind's gray-700 */
+}
+.loading{
+  cursor: wait;
+}
+.form-container {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 35px rgba(3, 255, 179, 0.849);
+  padding: 1.5em;
+  max-width: 50rem;
+  width: 100dvw;
+  margin: auto;
+}
